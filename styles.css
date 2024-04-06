@@ -31,12 +31,12 @@ body {
   height: 38.188rem;
   background-color: var(--White);
   border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
 }
 
 .mobile-image {
   max-width: 21.438rem;
   min-height: 15rem;
-  border-radius: 0.625rem 0.625rem 0rem 0rem;
 }
 
 .desktop-image {
@@ -138,7 +138,6 @@ button:hover {
     display: block;
     max-width: 18.75rem;
     height: 28.125;
-    border-radius: 0.625rem 0rem 0rem 0.625rem;
   }
 
   main {
